@@ -1,0 +1,12 @@
+com\Framework\core\ElementFinder.class
+com\Framework\core\PropertiesLoader.class
+com\DataGenerator\RegisterDataGenerator.class
+com\AutomationPractise\page\RegistrationPage.class
+com\AutomationPractise\page\LandingPage.class
+com\Framework\core\BaseTests.class
+com\Framework\core\EnvPropertiesLoader.class
+com\AutomationPractise\page\LoginPage.class
+com\Framework\core\TestAsserts.class
+com\Framework\core\BaseUtils.class
+com\Framework\core\DataProviderUtils.class
+com\Framework\core\DataProviderArguments.class

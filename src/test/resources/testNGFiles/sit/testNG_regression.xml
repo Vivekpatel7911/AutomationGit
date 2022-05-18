@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name ="Regression Suite" verbose="1" >   <!--@BeforeSuite -->
+<!--    <parameter name="Browser" value="Chrome"></parameter>-->
+    <listeners>
+    <listener class-name="com.Framework.core.BaseTests"></listener>
+    </listeners>
+    <test name="Registration_Test" preserve-order="true">  <!--@BeforeTest-->
+        <classes>
+            <class name="AutomationPractise.test.LoginTest.LoginTests">
+                <methods>
+                    <include name="ValidateLoginPositiveFlow"/>  <!--@BeforeMethod-->
+                </methods>
+            </class>
+
+            <class name="AutomationPractise.test.RegistrationTest.RegistrationTest">
+                <methods>
+                    <include name="ValidateRegistrationPositiveFlow"/>  <!--@BeforeMethod-->
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>

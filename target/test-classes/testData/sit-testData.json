@@ -1,0 +1,16 @@
+{
+  "ValidateLoginPositiveFlow":[
+  {
+    "username":"hey@abc.com",
+    "password":"Testing@1234",
+    "accountName": "Tarun Sachdeva"
+  }
+    ,
+    {
+      "username":"hey1@abc.com",
+      "password":"Testing@1234",
+      "accountName": "Tarun Sachdeva"
+    }
+
+  ]
+}
