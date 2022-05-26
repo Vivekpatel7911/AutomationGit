@@ -15,7 +15,7 @@ import org.testng.annotations.Test;
 import java.io.IOException;
 
 public class RegistrationTest extends BaseTests{
-        @Test (description = "Validating the RegistrationFlow for Automation Practise Website.")
+        @Test (invocationCount = 3 , description = "Validating the RegistrationFlow for Automation Practise Website.")
         public void ValidateRegistrationPositiveFlow() throws InterruptedException {
             LandingPage landingPage = new LandingPage();
             landingPage.openAutomationPractiseWebsite();

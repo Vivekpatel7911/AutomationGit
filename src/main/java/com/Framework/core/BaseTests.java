@@ -15,7 +15,7 @@ public class BaseTests implements ITestListener {
         EnvPropertiesLoader.LoadPropertiesLoader();
     }
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
 
     public void setUp(){
         basePage = new BaseUtils();

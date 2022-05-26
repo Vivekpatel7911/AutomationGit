@@ -3,11 +3,11 @@
 
     <test name="registration_tests" preserve-order="true">  <!--@BeforeTest-->
         <classes>
-<!--            <class name="AutomationPractise.test.RegistrationTest.RegistrationTest">-->
-<!--                <methods>-->
-<!--                    <include name="ValidateRegistrationPositiveFlow"/>  &lt;!&ndash;@BeforeMethod&ndash;&gt;-->
-<!--                </methods>-->
-<!--            </class>-->
+            <class name="AutomationPractise.test.RegistrationTest.RegistrationTest">
+                <methods>
+                    <include name="ValidateRegistrationPositiveFlow"/>  <!--@BeforeMethod-->
+                </methods>
+            </class>
             <class name="AutomationPractise.test.LoginTest.LoginTests">
                 <methods>
                     <include name="ValidateLoginPositiveFlow"/>  <!--@BeforeMethod-->

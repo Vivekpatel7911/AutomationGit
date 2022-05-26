@@ -66,8 +66,8 @@ public class BaseUtils {
         }
 
         baseDriver.get().manage().window().maximize();
-        baseDriver.get().manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
-        baseDriver.get().manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        baseDriver.get().manage().timeouts().pageLoadTimeout(15, TimeUnit.SECONDS);
+        baseDriver.get().manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
     }
 
     public void closeAllBrowsers() {

@@ -12,11 +12,11 @@
                 </methods>
             </class>
 
-            <class name="AutomationPractise.test.RegistrationTest.RegistrationTest">
-                <methods>
-                    <include name="ValidateRegistrationPositiveFlow"/>  <!--@BeforeMethod-->
-                </methods>
-            </class>
+<!--            <class name="AutomationPractise.test.RegistrationTest.RegistrationTest">-->
+<!--                <methods>-->
+<!--                    <include name="ValidateRegistrationPositiveFlow"/>  &lt;!&ndash;@BeforeMethod&ndash;&gt;-->
+<!--                </methods>-->
+<!--            </class>-->
 
         </classes>
     </test>
